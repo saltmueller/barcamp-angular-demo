@@ -1,0 +1,25 @@
+  <div class="span12">
+    <h1>CRUD Demo</h1>
+
+    <div class="span3">
+        <form> 
+            Title:<br/> <input ng-model="title_input"> <br />
+            <br />
+            Description:<br/> <input ng-model="description_input">
+            <button ng-click="addRecord()">Add</button>
+        </form>
+    </div> 
+
+     <div class="span6">
+        <div ng-show="records.length != 0">
+            <div ng-repeat="rec in records"> 
+                <pre >
+                    Title: {{rec.title}}
+                    Description: {{rec.description}}
+                </pre>
+                <button class="btn" ng-click="deleteRecord($index)">Delete</button>
+            </div> 
+        </div>
+    </div>
+
+  </div>

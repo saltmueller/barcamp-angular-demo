@@ -20,5 +20,4 @@ Run the following in a shell to get this work (tested on Linux, but should run o
 
 
 The above first installs a self contained virtual env and install the dependencies in it. Then it activates the virtualenv and
-starts the server. After that the app is avaialbe at http://localhost:8080/app/index.html.
-
+starts the server. After that the app is avaialbe at [http://localhost:8080/app/](http://localhost:8080/app/).
